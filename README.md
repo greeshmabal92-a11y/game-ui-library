@@ -29,6 +29,7 @@ game-ui-library/
 │── index.html
 │── style.css
 │── script.js
+│── Screenshot.png
 └── README.md
 ```
 
