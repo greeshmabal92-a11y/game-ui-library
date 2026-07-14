@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Game UI Library</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Game UI Component Library</h1>
+
+        <div class="component-grid">
+
+            <!-- Buttons -->
+            <div class="component-box">
+
+                <h2>Buttons</h2>
+
+                <div class="button-group">
+                    <button class="btn btn-primary">Play</button>
+                    <button class="btn btn-secondary">Settings</button>
+                    <button class="btn btn-danger">Exit</button>
+                </div>
+
+            </div>
+
+            <!-- Cards -->
+            <div class="component-box">
+
+                <h2>Cards</h2>
+
+                <div class="card-group">
+
+                    <div class="card">
+                        <h3>Assault Rifle</h3>
+                        <p>Damage: 85</p>
+                        <button class="btn btn-primary">Equip</button>
+                    </div>
+
+                    <div class="card">
+                        <h3>Sniper Rifle</h3>
+                        <p>Damage: 120</p>
+                        <button class="btn btn-primary">Equip</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Progress Bars -->
+            <div class="component-box">
+
+                <h2>Progress Bars</h2>
+
+                <div class="progress-group">
+
+                    <p>Health</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill health"></div>
+                    </div>
+
+                    <p>Mana</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill mana"></div>
+                    </div>
+
+                    <p>XP</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill xp"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Inputs -->
+            <div class="component-box">
+
+                <h2>Inputs</h2>
+
+                <div class="input-group">
+                    <input
+                        type="text"
+                        class="game-input"
+                        placeholder="Enter Username">
+                </div>
+
+            </div>
+
+            <!-- Sliders -->
+            <div class="component-box">
+
+                <h2>Sliders</h2>
+
+                <div class="slider-group">
+
+                    <label>Master Volume</label>
+
+                    <input
+                        type="range"
+                        class="game-slider"
+                        min="0"
+                        max="100"
+                        value="70">
+
+                </div>
+
+            </div>
+
+            <!-- Toggle -->
+            <div class="component-box">
+
+                <h2>Toggle</h2>
+
+                <div class="toggle-group">
+
+                    <label class="switch">
+                        <input type="checkbox" checked>
+                        <span class="slider-toggle"></span>
+                    </label>
+
+                    <span>Music</span>
+
+                </div>
+
+            </div>
+
+            <!-- Popup Dialog -->
+            <div class="component-box">
+
+                <h2>Popup Dialog</h2>
+
+                <button class="btn btn-danger" id="openPopup">
+                    Exit Game
+                </button>
+
+                <div class="popup-overlay" id="popup">
+
+                    <div class="popup">
+
+                        <h3>Exit Game?</h3>
+
+                        <p>Are you sure you want to quit?</p>
+
+                        <div class="popup-buttons">
+
+                            <button class="btn btn-danger" id="yesBtn">
+                                Yes
+                            </button>
+
+                            <button class="btn btn-secondary" id="closePopup">
+                                Cancel
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
