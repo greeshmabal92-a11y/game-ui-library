@@ -2,6 +2,14 @@
 
 A responsive Game UI Component Library built using HTML, CSS, and JavaScript.
 
+## Live Demo
+
+🌐 Live Site: https://greeshmabal92-a11y.github.io/game-ui-library/
+
+## Repository
+
+📂 GitHub: https://github.com/greeshmabal92-a11y/game-ui-library
+
 ## Features
 
 - Reusable Buttons
