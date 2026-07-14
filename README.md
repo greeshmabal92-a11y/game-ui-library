@@ -20,7 +20,7 @@ A responsive Game UI Component Library built using HTML, CSS, and JavaScript.
 
 ## Preview
 
-![Game UI Component Library](screenshot.png)
+![Game UI Component Library](Screenshot.png)
 
 ## Project Structure
 
