@@ -10,6 +10,10 @@ A responsive Game UI Component Library built using HTML, CSS, and JavaScript.
 
 📂 GitHub: https://github.com/greeshmabal92-a11y/game-ui-library
 
+## Preview
+
+![Game UI Component Library](Screenshot.png)
+
 ## Features
 
 - Reusable Buttons
@@ -25,10 +29,6 @@ A responsive Game UI Component Library built using HTML, CSS, and JavaScript.
 - HTML5
 - CSS3
 - JavaScript
-
-## Preview
-
-![Game UI Component Library](Screenshot.png)
 
 ## Project Structure
 
