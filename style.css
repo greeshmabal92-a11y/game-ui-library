@@ -305,9 +305,7 @@ h2{
     font-weight: 400;
 }
 
-.project-info strong {
-    color: #4fd1ff;
-}
+
 @media (max-width:768px){
 
     .component-grid{
